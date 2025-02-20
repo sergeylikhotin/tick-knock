@@ -1,5 +1,5 @@
 {
-  "name": "tick-knock",
+  "name": "@noflame/tick-knock",
   "version": "4.3.0",
   "description": "TypeScript Entity-Component-System library",
   "author": "Ilya Malanin",
@@ -7,7 +7,6 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "setup": "yarn install",
     "build": "tsc",
     "build-watch": "tsc --watch",
     "test": "jest",
@@ -27,6 +26,7 @@
   "files": [
     "lib"
   ],
+  "packageManager": "pnpm@10.4.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayakwd/tick-knock.git"

@@ -62,3 +62,6 @@ typings/
 
 # Generated library
 lib
+
+# IDE
+.idea
